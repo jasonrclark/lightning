@@ -10,7 +10,7 @@ def the_work
 end
 
 require 'stackprof'
-StackProf.start(:mode => :wall)
+StackProf.start(:mode => :object)
 
 the_work
 

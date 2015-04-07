@@ -9,4 +9,11 @@ def the_work
   innocuous_seeming_method
 end
 
+require 'stackprof'
+StackProf.start(:mode => :wall)
+
 the_work
+
+StackProf.stop
+puts "Writing out results"
+StackProf.results("get.results")

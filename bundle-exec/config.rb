@@ -14,6 +14,14 @@ slide do
 end
 
 slide do
+  my_code "be.rb"
+end
+
+slide do
+  my_code "b.rb"
+end
+
+slide do
   my_code "basic.rb"
 end
 

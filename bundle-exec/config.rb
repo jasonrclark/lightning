@@ -13,36 +13,14 @@ slide do
   center_horizontally image "images/magic.jpg", margin_top: 200
 end
 
-slide do
-  my_code "be.rb"
-end
-
-slide do
-  my_code "b.rb"
-end
-
-slide do
-  my_code "basic.rb"
-end
-
-slide do
-  my_code "load_path.rb"
-end
-
-slide do
-  my_code "my_gem.rb"
-end
-
+my_code "be.rb"
+my_code "b.rb"
+my_code "basic.rb"
+my_code "load_path.rb"
+my_code "my_gem.rb"
 it_works!
-
-slide do
-  my_code "basic.rb"
-end
-
-slide do
-  my_code "my_gem2.rb"
-end
-
+my_code "basic.rb"
+my_code "my_gem2.rb"
 it_works!
 
 slide do
@@ -55,17 +33,9 @@ slide do
   centered_title "What If I Start a Process?", margin_top: 100, size: 150
 end
 
-slide do
-  my_code "other_process.rb"
-end
-
-slide do
-  my_code "other_process2.rb"
-end
-
-slide do
-  my_code "other_process3.rb"
-end
+my_code "other_process.rb"
+my_code "other_process2.rb"
+my_code "other_process3.rb"
 
 slide do
   background orchid

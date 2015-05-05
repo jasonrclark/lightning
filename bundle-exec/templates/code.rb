@@ -1,5 +1,7 @@
 def my_code(file)
-  code file, false, size: 48, margin_top: 100
+  slide do
+    code file, false, size: 48, margin_top: 100
+  end
 end
 
 def it_works!

@@ -1,12 +1,13 @@
-wingtips_options app: { title: "bundle exec",
-                        height: 800, width: 1024,
-                        fullscreen: false }
+wingtips_options app: { title: "bundle exec" }
+#wingtips_options app: { title: "bundle exec",
+                        #height: 800, width: 1024,
+                        #fullscreen: false }
 
 
 slide  do
   background orchid
   centered_title "This Developer Typed 'bundle exec'\n\nYou'll Never Believe What Happened Next",
-                 margin_top: 100
+                 margin_top: 100, size: 148
 end
 
 slide do
@@ -25,12 +26,12 @@ it_works!
 
 slide do
   background plum
-  centered_title "Why Haven't I Seen This Before?", margin_top: 100, size: 150
+  centered_title "Why Haven't I Seen This Before?", margin_top: 200, size: 200
 end
 
 slide do
   background plum
-  centered_title "What If I Start a Process?", margin_top: 100, size: 150
+  centered_title "What If I Start a Process?", margin_top: 200, size: 200
 end
 
 my_code "other_process.rb"
@@ -39,8 +40,8 @@ my_code "other_process3.rb"
 
 slide do
   background orchid
-  centered_title "Thanks!", margin_top: 150
-  centered_title "@jasonrclark"
+  centered_title "Thanks!", margin_top: 150, size: 148
+  centered_title "@jasonrclark", size: 148
   centered_title "Slides lovingly presented\nby Wingtips + Shoes4", size: 48
   centered_title "♥♥♥", stroke: Shoes::COLORS[:red]
 end

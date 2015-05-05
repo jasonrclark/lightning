@@ -1,6 +1,6 @@
 def my_code(file)
   slide do
-    code file, false, size: 48, margin_top: 100
+    code file, false, size: 98, margin_top: 200
   end
 end
 

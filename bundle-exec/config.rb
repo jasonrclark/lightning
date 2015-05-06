@@ -1,8 +1,4 @@
 wingtips_options app: { title: "bundle exec" }
-#wingtips_options app: { title: "bundle exec",
-                        #height: 800, width: 1024,
-                        #fullscreen: false }
-
 
 slide  do
   background orchid
@@ -11,7 +7,7 @@ slide  do
 end
 
 slide do
-  center_horizontally image "images/magic.jpg", margin_top: 200
+  center_horizontally image "images/magic.jpg", margin_top: 100
 end
 
 my_code "be.rb"
@@ -43,5 +39,5 @@ slide do
   centered_title "Thanks!", margin_top: 150, size: 148
   centered_title "@jasonrclark", size: 148
   centered_title "Slides lovingly presented\nby Wingtips + Shoes4", size: 48
-  centered_title "♥♥♥", stroke: Shoes::COLORS[:red]
+  centered_title "♥♥♥", stroke: red
 end

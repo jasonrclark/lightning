@@ -7,7 +7,7 @@ end
 def it_works!
   slide do
     background magenta
-    centered_title "It Works!", margin_top: 200, size: 200
+    centered_title "It Works!", margin_top: 200, size: 300
   end
 end
 

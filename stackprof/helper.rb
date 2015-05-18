@@ -1,8 +1,7 @@
 require_relative 'innocuous'
 
 def totally_safe
-  #web_scale_fibonnaci(38)
-  42
+  web_scale_fibonnaci(38)
 end
 
 def web_scale_fibonnaci(i)

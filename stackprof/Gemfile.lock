@@ -16,10 +16,14 @@ GEM
     pry-byebug (3.0.0)
       byebug (~> 3.4)
       pry (~> 0.10)
+    rack (1.6.1)
     slop (3.6.0)
+    stackprof (0.2.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   pry-byebug
+  rack
+  stackprof

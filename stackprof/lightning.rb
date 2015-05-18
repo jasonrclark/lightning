@@ -1,5 +1,8 @@
 #! /usr/bin/env ruby
 
+require 'bundler/setup'
+Bundler.require
+
 require_relative "helper"
 
 def the_work
@@ -9,7 +12,6 @@ def the_work
   innocuous_seeming_method
 end
 
-require 'stackprof'
 StackProf.start(:mode => :object)
 
 the_work
